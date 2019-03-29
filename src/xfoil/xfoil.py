@@ -252,7 +252,7 @@ class XFoil(object):
 
         Returns
         -------
-        a, cl, cd, cm, co : np.ndarray
+        a, cl, cd, cm, cp : np.ndarray
             Lists of angles of attack and their corresponding lift, drag, moment, and minimum pressure coefficients.
         """
         n = abs(int((a_end - a_start) / a_step))
@@ -289,7 +289,7 @@ class XFoil(object):
 
         Returns
         -------
-        a, cl, cd, cm, co : np.ndarray
+        a, cl, cd, cm, cp : np.ndarray
             Lists of angles of attack and their corresponding lift, drag, moment, and minimum pressure coefficients.
         """
         n = abs(int((cl_end - cl_start) / cl_step))
